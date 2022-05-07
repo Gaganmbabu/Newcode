@@ -36,6 +36,9 @@ App_Id = ToolConfig_Dict['App_Id'].strip()
 App_Secret = ToolConfig_Dict['App_Secret'].strip()
 Dataset_Id = ToolConfig_Dict['Dataset_Id'].strip()
 Source_Url = ToolConfig_Dict['Source_Url'].strip()
+App_Secret1 = ToolConfig_Dict['App_Secret'].strip()
+Dataset_Id2 = ToolConfig_Dict['Dataset_Id'].strip()
+Source_Url3 = ToolConfig_Dict['Source_Url'].strip()
 
 KN.Check_Exists(ToolConfigF, [Host, App_Id, App_Secret, Dataset_Id,Source_Url])
 
